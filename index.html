@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAVASCRIPT DOM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="#challenge1">Challenge 1</a></li>
+            <li><a href="#challenge2">Challenge 2</a></li>
+            <li><a href="#challenge3">Challenge 3</a></li>
+        </ul>
+    </nav>
+
+    <!--Challenge 1 START-->
+    <section id="challenge1">
+            <div class="container">
+                <div class="challenge1">
+                    <h1>Challenge 1 in JAVASCRIPT</h1>
+                    <div id="content-list">
+                        <h2 id="title">Hello, my name is John Vel.</h2>
+                        <ul>
+                            <li>Have a vacation in Switzerland</li>
+                            <li>I want to go to Japan</li>
+                            <li>I would like to spend my life playing guitar</li>
+                            <li>In the future, gusto ko pumunta sa space.</li>
+                        </ul>
+                    </div>
+                
+            
+                <p>
+                    Add New: <input type="text" id="newBucketlist" placeholder="Add New Here">
+                </p>
+            </div>
+            
+                <div class="button">
+                    <button id="fontBoldButton" onclick="changeToFontBold()">Change the font to Bold</button>
+                    <button id="fontFamilyButton" onclick="changeFontFamily()">Change font family</button>
+                    <button id="addItemButton" onclick="addNewElement()">Add new item on the list</button>
+                </div>
+
+            </div>
+    </section>
+    <!--Challenge 1 END-->
+
+
+    <!--Challenge 2 START-->
+    <section id="challenge2">
+            <div class="container-chall2">
+                <h1>Challenge 2 in JAVASCRIPT</h1>
+                <div class="button">
+                    <button id="PutThedesign" onclick="PutThedesign()">Put the Design</button>
+                    <button id="Removethedesign" onclick="Removethedesign()">Remove the design</button>
+                </div>
+                <div class="containerdesign">
+                    <h1>Jeremiah 29:11</h1>
+                    <p>For I know the plans I have for you," declares the Lord, "plans to prosper you and not to harm you, plans to give you hope and a future.</p>
+                </div>
+        </div>
+    </section>
+    
+    <!--Challenge 2 END-->
+
+    <section id="challenge3">
+        <div class="container">
+            <h2>Login Form</h2>
+            <form id="loginForm">
+                <div class="form-group">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <div class="form-group">
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    
+</body>
+
+<script src="script.js"></script>
+
+</html>
